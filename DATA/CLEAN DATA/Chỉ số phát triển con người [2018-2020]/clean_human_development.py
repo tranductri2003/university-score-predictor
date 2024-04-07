@@ -6,7 +6,7 @@ with open('DATA\RAW DATA\Chỉ số phát triển con người [2018-2020]\Thố
     data = list(reader)
 
 # Tạo danh sách địa phương và loại bỏ hàng đầu tiên (tiêu đề)
-locations = [row[0] for row in data[1:]]
+locations = ['TP. Cần Thơ' if location == 'Cần Thơ' else 'Hòa Bình' if location == 'Hoà Bình' else location for location in [row[0] for row in data[1:]]]
 # Tạo danh sách giá trị của mỗi năm
 values_2018 = [row[1] for row in data[1:]]
 values_2019 = [row[2] for row in data[1:]]
