@@ -43,7 +43,7 @@ Nghiên cứu sự khác biệt về các yếu tố này giữa các địa ph�
   - RAW DATA: Dữ liệu thô và file lấy dữ liệu
   - CLEAN DATA: Dữ liệu sau khi làm sạch
 # Hướng dẫn chạy chương Trình
-### Bước 1
+## Bước 1
  - Vào file Raw Data, trong từng thư mục chạy từng file để đuôi .py để lấy dữ liệu từ web
  - với thư mục "Dân số và mật độ dân số " khi chạy sẽ hiện lên trang web, chọn lọc dữ liệu theo mình cần rồi bấm lọc sau đó dữ liệu sẽ tự lấy về ( có 1000 giây để thực hiện)
  - Tương tự với các file còn lại chỉ cần chạy dữ liệu sẽ tự đổ về
