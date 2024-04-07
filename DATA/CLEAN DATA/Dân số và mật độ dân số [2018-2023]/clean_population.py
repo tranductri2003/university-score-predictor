@@ -25,6 +25,10 @@ new_df['Địa phương'] = new_df['Địa phương'].str.replace('TP.', 'TP. ')
 
 new_df['Địa phương'] = new_df['Địa phương'].str.replace('Cần Thơ', 'TP. Cần Thơ')
 
+new_df['Địa phương'] = new_df['Địa phương'].str.replace('oà', 'òa')
+
+new_df['Địa phương'] = new_df['Địa phương'].str.replace('oá', 'óa')
+
 # Lưu ra file CSV
 new_df.to_csv('DATA\CLEAN DATA\Dân số và mật độ dân số [2018-2023]\clean_population.csv', index=False, encoding='utf-8')
 
