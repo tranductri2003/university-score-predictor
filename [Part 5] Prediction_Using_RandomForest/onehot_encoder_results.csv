@@ -1,0 +1,9 @@
+Model,Best Score
+Linear Regression,-126575935349.92888
+Polynomial Regression,-1303.4324067977793
+Decision Tree,-0.8080303422082808
+Random Forest,-0.7691828984901593
+Gradient Boosting,-0.7896503808412529
+Support Vector Regression,-0.7293051577453731
+LightGBM,-0.8317061521638554
+XGBoost,-0.7880710264636177
