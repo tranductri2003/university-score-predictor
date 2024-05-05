@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Đọc file CSV với mã hóa UTF-8
-df = pd.read_csv('DATA\RAW DATA\Dân số và mật độ dân số [2018-2023]\Population_of_provinces.csv', encoding='utf-8', thousands=',')
+df = pd.read_csv('DATA\RAW DATA\Dân số và mật độ dân số [2018-2023]\Population_of_provinces.csv', encoding='utf-8')
 
 # Tách dữ liệu thành các cột mới
 new_rows = []
